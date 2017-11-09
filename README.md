@@ -6,14 +6,14 @@ As an alternative, I took some screenshots on funny stickers and put them on my 
 
 # Internal #
 
-It is easy to find the source image URL.  They are all in the format ```https://stickershop.line-scdn.net/stickershop/v1/sticker/XXXX/YYYY/sticker.png```.  XXXX represents a sticker unique ID; YYYY represents a platform name.  For example, ```https://stickershop.line-scdn.net/stickershop/v1/sticker/404681/android/sticker.png``` is an image URL.
+It is easy to find the source image URL.  They are all in the format ```https://stickershop.line-scdn.net/stickershop/v1/sticker/XXXX/YYYY/sticker.png```.  XXXX represents an unique sticker ID; YYYY represents a platform name.  For example, ```https://stickershop.line-scdn.net/stickershop/v1/sticker/404681/android/sticker.png``` is a valid image URL.
 
-So, it may be intersting to construct the image URL randomly.  As sticker ID is just an integer, and valid platform is either "android" or "iphone".
+So, it may be intersting to construct the image URL randomly.  As sticker ID is just an integer, and the platform name is either "android" or "iphone" (could be more, I only find these two).
 
-For instance, you can try to access these image.
+For instance, you can try to access these images.
 
-* [https://stickershop.line-scdn.net/stickershop/v1/sticker/66666/android/sticker.png](https://stickershop.line-scdn.net/stickershop/v1/sticker/66666/android/sticker.png)
-* [https://stickershop.line-scdn.net/stickershop/v1/sticker/77777/iphone/sticker.png](https://stickershop.line-scdn.net/stickershop/v1/sticker/77777/iphone/sticker.png)
+* [https://stickershop.line-scdn.net/stickershop/v1/sticker/12345/android/sticker.png](https://stickershop.line-scdn.net/stickershop/v1/sticker/12345/android/sticker.png)
+* [https://stickershop.line-scdn.net/stickershop/v1/sticker/12345678/iphone/sticker.png](https://stickershop.line-scdn.net/stickershop/v1/sticker/12345678/iphone/sticker.png)
 
 # Usage #
 
